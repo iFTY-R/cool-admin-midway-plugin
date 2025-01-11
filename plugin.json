@@ -1,16 +1,15 @@
 {
-    "name": "测试",
-    "key": "test",
-    "hook": "",
-    "singleton": false,
+    "name": "钉钉机器人消息",
+    "key": "dingtalk",
     "version": "1.0.0",
-    "description": "插件描述",
-    "author": "作者",
+    "description": "钉钉群机器人消息推送插件，支持文本、Markdown、链接、FeedCard、ActionCard等多种消息类型，支持@功能。",
+    "author": "CoolAdmin",
     "logo": "assets/logo.png",
     "readme": "README.md",
+    "hook": "",
+    "singleton": true,
     "config": {
-        "appId": "@baseDir/1.md",
-        "appSecret": "xxxxx",
-        "filePath": "@baseDir/xxxxx"
+        "robotWebhook": "钉钉群自定义机器人Webhook",
+        "robotSecret": "钉钉群自定义机器人密钥（加签)"
     }
 }
